@@ -16,5 +16,9 @@
                 showTime();
             }, 1000);
         </script>
+        <script>
+            let d = new Date();
+            alert("Today's date is " + d);
+        </script>
 </body>
 </html>
