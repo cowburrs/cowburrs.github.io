@@ -1,4 +1,4 @@
-<script>
+
             function showTime() {
             document.getElementById('currentTime').innerHTML = new Date().toUTCString();
             }
@@ -6,4 +6,3 @@
             setInterval(function () {
                 showTime();
             }, 1000);
-        </script>
