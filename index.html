@@ -1,25 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body> 
-    <p>Hey cutie i love you <3</p>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <h1 class="title">Hello World! </h1>
+      <p id="currentTime"></p>
       <script src="script.js"></script>
-        <script>
-            function showTime() {
-            document.getElementById('currentTime').innerHTML = new Date().toUTCString();
-            }
-            showTime();
-            setInterval(function () {
-                showTime();
-            }, 1000);
-        </script>
-        <script>
-            let d = new Date();
-            alert("Today's date is " + d);
-        </script>
-</body>
+  </body>
 </html>
