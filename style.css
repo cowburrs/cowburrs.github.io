@@ -1,5 +1,6 @@
 * {
   color: white;
+  margin: 0;
 }
 
 header {
@@ -42,6 +43,11 @@ h3 {
   height: auto;
   overflow: hidden;
 }
+
+h4 {
+  height: 860px;
+}
+
 .box {
   line-height: 0;
   text-align: center;
@@ -68,6 +74,38 @@ h3 {
   top: -50px;
   margin: 0;
   float: left;
+}
+
+.triplebox {
+  float: left;
+  width: 32%;
+  border-radius: 50px;
+  position: relative;
+  margin:0  0 0 1%;
+  padding: 100px 0;
+  height: 
+}
+
+.topicbox{
+  height: 0px;
+  position: relative;
+  top: 20px;
+  border-radius: 50px;
+  text-align: center;
+  margin: 0 20px 40px;
+  padding: 50px;
+}
+
+.boxtitle {
+  line-height: 0
+}
+
+.boxparagraph {
+  position: relative;
+  left: 10%;
+  margin: 0;
+  top: -1em;
+  line-height: 2em;
 }
 
 .dark {
@@ -101,7 +139,3 @@ h3 {
   background-color: black;
   margin: 0;
 }
-
-
-
-
