@@ -24,3 +24,7 @@ body {
     padding: 0;
     margin:0;
 }
+.lightgradient{
+	background-color: #3d4c42;
+	background-image: linear-gradient(to bottom right, #1DB95455 0%, #3d4c42)
+}
