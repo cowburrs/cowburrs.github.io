@@ -37,7 +37,7 @@
   border-radius: 50px;
   position: relative;
   margin: 0 0 0 1%;
-  padding: 60px 0;
+  padding: 60px 0 40px;
   height: auto;
 }
 
@@ -61,7 +61,7 @@
   position: relative;
   left: 10%;
   margin: 0;
-  top: -1em;
+  top: -2em;
   line-height: 2em;
 }
 
@@ -78,11 +78,33 @@
 
 .topicboxtitle {
   border-radius: 25px;
-  margin: 0 0 20px 0;
+  margin: 0 0 40px 0;
   padding: 20px 0px;
   width: 90%;
   text-align: center;
   position: relative;
   left: 5%;
   top: -50px;
+}
+
+table.sansboxlist {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 90%;
+  position: relative;
+  left: 5%;
+  td,
+  th {
+    vertical-align: top;
+    padding: 0;
+    text-align: left;
+  }
+  th {
+    font-size: 40px;
+    position: relative;
+    left: 2em;
+  }
+  td {
+    font-size: 20px;
+  }
 }
