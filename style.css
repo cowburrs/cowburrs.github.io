@@ -118,6 +118,8 @@ table.sansboxlist {
   border-radius: 20px;
   padding: 20px;
   margin: 0 0 20px;
+  overflow: hidden;
+  height: fit-content;
 }
 
 p {
@@ -139,4 +141,13 @@ p {
 
 .box.right {
   float: right;
+}
+
+.bigboxtop{
+width: 100%;
+}
+
+.nomargin.bigbox {
+  margin: 0;
+  padding: 0;
 }

@@ -28,3 +28,13 @@ body {
 	background-color: #3d4c42;
 	background-image: linear-gradient(to bottom right, #1DB95444 0%, #3d4c4299)
 }
+
+.whitegradient {
+	background-color: #3d4c42;
+    background-image: linear-gradient(to bottom, #FFFFFF44 , #3d4c42);
+}
+
+.darkgradient {
+	background-color: #1e2621;
+    background-image: linear-gradient(to bottom, #FFFFFF22 , #1e262111);
+}
