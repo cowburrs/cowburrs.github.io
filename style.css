@@ -116,3 +116,22 @@ table.sansboxlist {
   padding: 20px;
   margin: 0 20px 0 0;
 }
+
+.bigbox {
+  min-height: 200px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.underlinetext {
+  border-style: solid;
+  border-color: #ff66aa;
+  border-width: 0 0 3px 0;
+  width: fit-content;
+  margin: 1em 0;
+  padding-bottom: 0.2em;
+}
