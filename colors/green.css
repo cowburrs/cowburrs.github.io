@@ -30,11 +30,11 @@ body {
 }
 
 .whitegradient {
-	background-color: #3d4c42;
-    background-image: linear-gradient(to bottom, #FFFFFF44 , #3d4c42);
+	background-color: #3d4c4a;
+    background-image: linear-gradient(to bottom, #ff66aabb 50% , #ff66aa88);
 }
 
 .darkgradient {
-	background-color: #1e2621;
-    background-image: linear-gradient(to bottom, #FFFFFF22 , #1e262111);
+	background-color: #3d4c42;
+    background-image: linear-gradient(to bottom, #ff66aa66 10% , #3d4c42 60%);
 }

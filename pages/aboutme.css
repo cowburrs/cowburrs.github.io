@@ -30,6 +30,12 @@ h1 {
   object-fit: cover;
 }
 
+#girl{
+  width: 270px;
+  margin: 15px;
+  border-radius: 150px;
+}
+
 #aboutme {
   padding: 50px;
 }

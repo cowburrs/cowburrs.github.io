@@ -151,3 +151,21 @@ width: 100%;
   margin: 0;
   padding: 0;
 }
+
+.circle {
+  width:300px;
+  height: 300px;
+  position: relative;
+  bottom: -150px;
+  border-radius: 150px;
+  left: 50px;
+  z-index: 0;
+}
+
+.title {
+  position: relative;
+  font-size: 72px;
+  line-height: 0;
+  left: 40%;
+  top: 150px;
+}
