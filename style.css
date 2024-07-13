@@ -111,6 +111,7 @@ table.sansboxlist {
   font-size: 20px;
   padding: 20px;
   margin: 0 20px 0 0;
+  text-wrap: wrap;
 }
 
 .bigbox {
@@ -143,8 +144,8 @@ p {
   float: right;
 }
 
-.bigboxtop{
-width: 100%;
+.bigboxtop {
+  width: 100%;
 }
 
 .nomargin.bigbox {
@@ -153,7 +154,7 @@ width: 100%;
 }
 
 .circle {
-  width:300px;
+  width: 300px;
   height: 300px;
   position: relative;
   bottom: -150px;
@@ -168,4 +169,35 @@ width: 100%;
   line-height: 0;
   left: 40%;
   top: 150px;
+}
+
+.bigtext,
+.mediumtext {
+  margin: 0 0 20px 40px;
+  font-family: ggsans;
+}
+
+.bigtext {
+  font-size: 75px;
+  line-height: 75px;
+  font-style: bold;
+}
+
+.mediumtext {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+@font-face {
+  font-family: "ggsans";
+  src: url(fonts/gg\ sans/ggsans-Normal.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "ggsans";
+  src: url(fonts/gg\ sans/ggsans-Bold.ttf) format('truetype');
+  font-style: bold;
+  font-weight: 400;
 }
