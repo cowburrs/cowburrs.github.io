@@ -190,14 +190,14 @@ p {
 
 @font-face {
   font-family: "ggsans";
-  src: url(fonts/gg\ sans/ggsans-Normal.ttf) format('truetype');
+  src: url(fonts/gg\ sans/ggsans-Normal.ttf) format("truetype");
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
   font-family: "ggsans";
-  src: url(fonts/gg\ sans/ggsans-Bold.ttf) format('truetype');
+  src: url(fonts/gg\ sans/ggsans-Bold.ttf) format("truetype");
   font-style: bold;
   font-weight: 400;
 }
