@@ -35,8 +35,14 @@ setInterval(function () {
 }, 500);
 
 //Button Script
-document.getElementById("imagebutton").addEventListener("click", myFunction);
-function myFunction() {
-  document.getElementById("imagebutton").innerHTML = "hellow";
-  document.getElementById("flower").style.height = "100";
+document.getElementById("imagebutton").addEventListener("click", flowershow);
+let showflower = false
+function flowershow() {
+  if (showflower == false){
+  document.getElementById("flower").style.display = 'none';
+  showflower = true;
+  } else if (showflower == true) {
+  document.getElementById("flower").style.display = "inline"
+  showflower = false
+  }
 }

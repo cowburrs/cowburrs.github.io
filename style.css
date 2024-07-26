@@ -178,6 +178,7 @@ p {
 }
 
 .bigtext {
+  margin-top: 150px;
   font-size: 75px;
   line-height: 75px;
   font-style: bold;
@@ -186,22 +187,74 @@ p {
 .mediumtext {
   font-size: 30px;
   line-height: 30px;
+  margin: 0 0 4em 40px;
+  font-weight: normal;
 }
 
 @font-face {
   font-family: "ggsans";
   src: url(fonts/gg\ sans/ggsans-Normal.ttf) format("truetype");
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
 }
 
 @font-face {
   font-family: "ggsans";
   src: url(fonts/gg\ sans/ggsans-Bold.ttf) format("truetype");
   font-style: bold;
-  font-weight: 400;
+  font-weight: bold;
 }
 
-.button{
-  
+.button {
+  float:right;
+  border-radius: 50px;
+  position: relative;
+  top: 35px;
+  padding: 50px;
+}
+
+#nopadding {
+  padding: 0px;
+  margin: 0px;
+  height: 0px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: grey;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 80%;
+  margin-left: -100px;
+  opacity: 0;
+  transition: opacity 0.5s;
+  width: fit-content;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -10px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: grey transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0.1s;
 }
