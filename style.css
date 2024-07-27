@@ -100,9 +100,12 @@ table.sansboxlist {
     font-size: 40px;
     position: relative;
     left: 2em;
+    font-family: exoname;
   }
   td {
     font-size: 20px;
+    font-family: exoname;
+    font-weight: normal;
   }
 }
 
@@ -193,16 +196,79 @@ p {
 
 @font-face {
   font-family: "ggsans";
-  src: url(fonts/gg\ sans/ggsans-Normal.ttf) format("truetype");
+  src: url(fonts/gg-sans/ggsans-Normal.ttf) format("truetype");
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: "ggsans";
-  src: url(fonts/gg\ sans/ggsans-Bold.ttf) format("truetype");
+  src: url(fonts/gg-sans/ggsans-Bold.ttf) format("truetype");
   font-style: bold;
   font-weight: bold;
+}
+
+@font-face {
+  font-family: "exoname";
+  src: url(fonts/exo/Exo2-Medium.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "exoname";
+  src: url(fonts/exo/Exo2-Bold.ttf) format("truetype");
+  font-style: bold;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "evafont";
+  src: url(fonts/evangelionfont/EPSON-KAISHO.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "YuMin";
+  src: url(fonts/yumincho/YUMINDB.TTF) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "wildwords";
+  src: url(fonts/wildwords/CC\ WILD\ WORDS\ ROMAN.TTF) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "percona";
+  src: url(fonts/Percona/PERSONA5MAIN.TTF) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.percona{
+  font-family: percona;
+}
+
+.wildwords{
+  font-family: wildwords;
+}
+
+.nametitle {
+  font-family: YuMin;
+  font-size: 50px;
+}
+
+.evafont {
+  font-family: evafont;
+}
+
+.yumin {
+  font-family: YuMin;
 }
 
 .button {
@@ -213,7 +279,7 @@ p {
   padding: 50px;
 }
 
-#nopadding {
+.nopadding {
   padding: 0px;
   margin: 0px;
   height: 0px;
