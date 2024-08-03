@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="colors/green.css" />
+  <link rel="stylesheet" href="pages/aboutme.css" />
+  <script src="https://kit.fontawesome.com/c33d631dcf.js" crossorigin="anonymous"></script>
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <header></header>
+  <div id="main">
+    <h1 class="darkhighlight" id="aboutme">
+      <p class="kimchi boxtitle">Projects</p>
+    </h1>
+    <h3 class="highlight">
+      <a href='index.html'>
+        <p class="system clickbox">AboutMe</p>
+      </a>
+      <a href='projects'>
+        <p class="system clickbox thispage">Projects</p>
+      </a>
+    </h3>
+
+
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

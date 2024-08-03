@@ -250,6 +250,40 @@ p {
   font-weight: normal;
 }
 
+@font-face{
+  font-family: "kimchi";
+  src: url(fonts/kimchi/KIMCHIMOCHI.TTF) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face{
+  font-family: "system";
+  src: url(fonts/system/BERKELIUMIIHGR.TTF) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face{
+  font-family: "mochiy";
+  src: url(fonts/Other\ Fonts/MOCHIYPOPONE-REGULAR.TTF) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.mochiy{
+  font-family: mochiy;
+}
+
+.system {
+  font-family: system;
+}
+
+.kimchi{
+  font-family: kimchi;
+  letter-spacing: 3px;
+}
+
 .percona{
   font-family: percona;
 }
@@ -323,4 +357,21 @@ p {
   visibility: visible;
   opacity: 1;
   transition-delay: 0.1s;
+}
+
+.clickbox{
+  float: left;
+  position: relative;
+  height: 45px;
+  padding: 15px 6px 0 10px;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+.clickbox.thispage{
+  background-color: #00000022;
+}
+
+.clickbox:hover{
+  background-color: #00000022;
 }
