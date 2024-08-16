@@ -1,0 +1,48 @@
+.dark {
+	background-color: #332d28;
+}
+
+.base {
+	background-color: #403833;
+}
+
+.light {
+	background-color: #4c433d;
+}
+
+.highlight {
+ 	background-color: #59493e;
+}
+
+.darkhighlight{
+ 	background-color: #40342c;
+    margin: 0;
+}
+
+body {
+    background-color: #26211e;
+    padding: 0;
+    margin:0;
+}
+.lightgradient{
+	background-color: #4c433d;
+	background-image: linear-gradient(to bottom right, #1DB95444 0%, #3d4c4299)
+}
+
+.whitegradient {
+	background-color: #4c433d;
+    background-image: linear-gradient(to bottom, #ff66aabb 50% , #ff66aa88);
+}
+
+.darkgradient {
+	background-color: #4c433d;
+    background-image: linear-gradient(to bottom, #ff66aa66 10% , #3d4c42 60%);
+}
+
+header{
+	background-color: #332923;
+}
+
+body{
+	background-color: #26211e;
+}
